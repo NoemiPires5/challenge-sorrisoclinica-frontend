@@ -1,0 +1,57 @@
+:root{
+    --azul-primario: #0088cc;      /* Botões, ícones principais e destaques */
+    --azul-hover: #006699;         /* Efeito hover dos botões */
+
+    --azul-claro: #eef7fc;         /* Fundo de seções alternadas (ex: Nossos Serviços) */
+    --bg-branco: #ffffff;          /* Fundo do header, cards e áreas limpas */
+    --azul-borda: #d0e8f8;         /* Bordas sutis dos cards */
+
+     --texto-principal: #333333;    /* Textos dos parágrafos principais */
+    --texto-suave: #666666;        /* Subtítulos e informações secundárias */
+
+    --sombra-card: 0 4px 15px rgba(0, 136, 204, 0.08); /* Sombra suave azulada */
+    --raio-card: 12px;             /* Arredondamento padrão dos cards e botões */
+}
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXPrR0UJgz2Jl-x9viiL3gGKtoqIu3lABSLNE2fVOYjg&s=10
+/*Tablet*/
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAteq_QDN6TGII7aBLxl_-j8SIiXEQ8jUQJWf0duFKKQ&s=10
+/*Celular*/
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHccvGsBCfOb5g5ACAEEilzrB1EfzZtTknKTj3s-bhCQ&s=10
+/*Descktop*/
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: var(--bg-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    padding: 20px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul a {
+    color: var(--azul-primario);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav ul a:hover {
+    color: var(--azul-hover);
+}
