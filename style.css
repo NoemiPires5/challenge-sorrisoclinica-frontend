@@ -13,18 +13,23 @@
     --raio-card: 12px;             /* Arredondamento padrão dos cards e botões */
 }
 
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXPrR0UJgz2Jl-x9viiL3gGKtoqIu3lABSLNE2fVOYjg&s=10
-/*Tablet*/
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXPrR0UJgz2Jl-x9viiL3gGKtoqIu3lABSLNE2fVOYjg&s=10
+Tablet
 
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAteq_QDN6TGII7aBLxl_-j8SIiXEQ8jUQJWf0duFKKQ&s=10
-/*Celular*/
+Celular
 
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHccvGsBCfOb5g5ACAEEilzrB1EfzZtTknKTj3s-bhCQ&s=10
-/*Descktop*/
-
-a {
+Descktop */
+a{
     text-decoration: none;
     font-weight: bold;
+}
+
+.logo{
+    /*Editar a imagem da logo tamanho e altura*/
+    height: 40px;
+    width: 50px;
 }
 
 header {
