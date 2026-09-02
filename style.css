@@ -7,7 +7,6 @@
     --azul-borda: #d0e8f8;         /* Bordas sutis dos cards */
 
      --texto-principal: #333333;    /* Textos dos parágrafos principais */
-    --texto-suave: #666666;        /* Subtítulos e informações secundárias */
 
     --sombra-card: 0 4px 15px rgba(0, 136, 204, 0.08); /* Sombra suave azulada */
     --raio-card: 12px;             /* Arredondamento padrão dos cards e botões */
@@ -58,4 +57,22 @@ nav ul a {
 
 nav ul a:hover {
     color: var(--azul-hover);
+}
+
+.Servicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.Servicos-card{
+    background-color: var(--bg-branco);
+    color: var(--texto-principal);
+    padding: 40px;
+    border-radius: var(--arredondamento);
+    text-align: center;
+    box-shadow: var(--sombra-card);
+    margin-top: 30px;
+    font-size: clamp(1rem, 1vw, 1rem);
 }
