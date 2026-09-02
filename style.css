@@ -84,14 +84,15 @@ button:hover {
 #Inicio {
     background: linear-gradient(90deg, rgba(238,247,252,1) 0%, rgba(238,247,252,0.8) 50%, rgba(255,255,255,0) 100%), 
                 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHccvGsBCfOb5g5ACAEEilzrB1EfzZtTknKTj3s-bhCQ&s=10') no-repeat right center / contain;
-    padding: 80px 5%;
-    min-height: 480px;
+    padding: 80px 10%;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
 }
 
 #Inicio h2 {
@@ -182,11 +183,14 @@ section h2 {
     background-color: transparent;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #Equipe article img {
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin-bottom: 15px;
     object-fit: cover;
@@ -244,12 +248,15 @@ section h2 {
 footer {
     background-color: #f8fafc;
     border-top: 1px solid var(--azul-borda);
-    padding: 40px 5% 20px 5%;
-    display: flex;
-    flex-direction: column;
+    padding: 40px 10%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
     align-items: center;
-    gap: 20px;
-    text-align: center;
+}
+
+footer .logo {
+    justify-self: start;
 }
 
 footer address {
@@ -259,13 +266,13 @@ footer address {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 footer address li {
     list-style: none;
     display: inline-block;
-    margin: 0 10px;
+    margin-right: 15px;
 }
 
 footer address a {
@@ -273,9 +280,11 @@ footer address a {
 }
 
 footer > p {
+    grid-column: 1 / -1;
     font-size: 0.8rem;
     color: var(--texto-suave);
     margin-top: 20px;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -283,6 +292,20 @@ footer > p {
         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXPrR0UJgz2Jl-x9viiL3gGKtoqIu3lABSLNE2fVOYjg&s=10');
         background-size: cover;
         background-position: center;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    footer .logo {
+        justify-self: center;
+    }
+
+    footer address {
+        align-items: center;
     }
 }
 
