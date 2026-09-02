@@ -59,6 +59,16 @@ nav ul a:hover {
     color: var(--azul-hover);
 }
 
+button{
+    background-color: var(--azul-primario);
+    color: var(--azul-claro);
+    border-color: var(--azul-borda);
+}
+
+button :hover{
+    color: var(--azul-hover);
+}
+
 .Servicos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
