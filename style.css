@@ -84,18 +84,11 @@ button:hover {
 }
 
 #Inicio {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    background-size: cover;
     background: linear-gradient(90deg, rgba(238,247,252,1) 0%, rgba(238,247,252,0.85) 50%, rgba(255,255,255,0) 100%), 
                 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHccvGsBCfOb5g5ACAEEilzrB1EfzZtTknKTj3s-bhCQ&s=10') no-repeat right center / contain;
-    padding: 100px 8%;
-    min-height: 520px;
+    padding: 70px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
