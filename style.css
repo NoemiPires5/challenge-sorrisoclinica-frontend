@@ -426,6 +426,11 @@ footer {
         display: none;
     }
 
+    #menu-toggle:checked~nav ul {
+        display: flex;
+         flex-direction: column;
+    }
+
 
     #Hero {
         display: flex;
