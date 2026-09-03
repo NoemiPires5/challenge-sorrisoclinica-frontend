@@ -80,7 +80,7 @@ nav ul a:hover {
 
 button {
     background-color: var(--azul-primario);
-    color: white;
+    color: var(--bg-branco);
     border: none;
     font-size: clamp(0.8rem, 1vw, 1rem);
     padding: 12px 24px;
