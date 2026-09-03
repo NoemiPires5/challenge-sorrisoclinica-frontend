@@ -82,7 +82,7 @@ button {
     background-color: var(--azul-primario);
     color: white;
     border: none;
-    font-size: clamp(0.2rem, 1vw, 1rem);
+     font-size: clamp(0.8rem, 1vw, 1rem);
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
