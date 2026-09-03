@@ -82,7 +82,8 @@ button {
     background-color: var(--azul-primario);
     color: white;
     border: none;
-     font-size: clamp(0.8rem, 1vw, 1rem);
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    padding: 12px 24px;
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
@@ -435,10 +436,10 @@ footer {
     }
 
 
-        #Hero h2{
-            text-align: center;
-            font-size: 0.9rem;
-        }
+    #Hero h2 {
+        text-align: center;
+        font-size: 0.9rem;
+    }
 
 
     #Hero p {
